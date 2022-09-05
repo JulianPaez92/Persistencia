@@ -14,7 +14,6 @@ sequelize
    console.error('Unable to connect to the database:', err);
  });
 
-
 class Items extends Sequelize.Model {}
 Items.init({
  firstName:Sequelize.STRING,
